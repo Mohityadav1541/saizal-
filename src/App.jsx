@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import confetti from "canvas-confetti";
 import StarlightCanvas from "./components/StarlightCanvas";
+import FlowerCursorTrail from "./components/FlowerCursorTrail";
 import FloatingNav from "./components/FloatingNav";
 import HeroSection from "./components/HeroSection";
 import HerSpotlightSection from "./components/HerSpotlightSection";
@@ -120,6 +121,7 @@ export default function App() {
       </div>
 
       <StarlightCanvas />
+      <FlowerCursorTrail />
       <FloatingNav isPlaying={isPlaying} onToggleMusic={toggleMusic} />
 
       <main className="relative z-20">

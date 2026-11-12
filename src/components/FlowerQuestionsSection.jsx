@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Heart, RotateCcw } from "lucide-react";
 import { FLOWER_STEPS, TRIP_META } from "../data/expeditionData";
+import TeddyRoseBuddy from "./TeddyRoseBuddy";
 
 function FlowerIcon({ color, bloomed, size = 38 }) {
   return (
@@ -80,6 +81,9 @@ export default function FlowerQuestionsSection({ onCompleteBouquet }) {
         <h2 className="font-display mt-1 text-3xl font-semibold text-[#FFF6EE] sm:text-5xl">
           Four Flirty Questions for {TRIP_META.friendName}
         </h2>
+        <div className="mt-5 flex justify-center">
+          <TeddyRoseBuddy compact />
+        </div>
       </motion.div>
 
       <div className="romantic-glass rounded-3xl p-6 sm:p-9">

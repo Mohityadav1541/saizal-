@@ -54,9 +54,15 @@ export default function SealedLetterSection() {
                   <motion.div
                     animate={{ y: [0, -6, 0] }}
                     transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-                    className="flex h-16 w-16 items-center justify-center rounded-full border border-[#F2A68D]/50 bg-[#F2A68D]/15 text-[#F2A68D]"
+                    className="relative flex h-20 w-20 items-center justify-center rounded-full border border-[#F2A68D]/50 bg-[#F2A68D]/15 text-[#F2A68D]"
                   >
-                    <MailOpen className="h-7 w-7" aria-hidden="true" />
+                    <MailOpen className="h-8 w-8" aria-hidden="true" />
+                    <span
+                      aria-hidden="true"
+                      className="absolute -right-1 -bottom-1 text-xl drop-shadow"
+                    >
+                      🌹
+                    </span>
                   </motion.div>
                   <h2 className="font-display mt-4 text-3xl italic text-[#FFF6EE]">
                     From My Heart to {TRIP_META.friendName}
