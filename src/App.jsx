@@ -5,6 +5,7 @@ import FloatingNav from "./components/FloatingNav";
 import HeroSection from "./components/HeroSection";
 import HerSpotlightSection from "./components/HerSpotlightSection";
 import BikeExpeditionSection from "./components/BikeExpeditionSection";
+import FlowerQuestionsSection from "./components/FlowerQuestionsSection";
 import FlirtDeckSection from "./components/FlirtDeckSection";
 import SealedLetterSection from "./components/SealedLetterSection";
 import DatePickerSection from "./components/DatePickerSection";
@@ -144,6 +145,12 @@ export default function App() {
           </div>
           <HerSpotlightSection />
           <BikeExpeditionSection />
+          <FlowerQuestionsSection
+            onCompleteBouquet={() => {
+              startMusic();
+              triggerCelebration();
+            }}
+          />
           <FlirtDeckSection onSayYes={handleSayYesFromHero} />
         </div>
 

@@ -4,6 +4,7 @@ const NAV_LINKS = [
   { href: "#hero", label: "Start" },
   { href: "#spotlight", label: "You" },
   { href: "#bike-ride", label: "Our Ride" },
+  { href: "#flowers", label: "Flowers" },
   { href: "#flirt-deck", label: "Confessions" },
   { href: "#letter", label: "Note" },
   { href: "#date-planner", label: "Pick Date" },

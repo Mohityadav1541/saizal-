@@ -122,3 +122,70 @@ export const DODGE_LINES = [
   "Pangong's sunset literally asked where you are...",
   "Okay seriously, stop chasing this button and tap Yes 🙈",
 ];
+
+export const FLOWER_STEPS = [
+  {
+    id: "rose",
+    flowerName: "Crimson Rose",
+    color: "#F28B82",
+    question: "A rose first. If I pull up with two helmets & hot tea, are you hopping on?",
+    options: [
+      {
+        label: "Already grabbing my jacket ✨",
+        reply: "Didn't doubt you for a second — window to the mountains is yours.",
+      },
+      {
+        label: "Only if I own the playlist 🎶",
+        reply: "Deal. Even if you force me to sing every chorus at 15,000 ft.",
+      },
+    ],
+  },
+  {
+    id: "wildflower",
+    flowerName: "Blush Poppy",
+    color: "#F2A68D",
+    question: "Second flower. When Khardung La gets freezing, what's our warm-up rule?",
+    options: [
+      {
+        label: "Hands in your jacket pockets 🤍",
+        reply: "Finally, the exact excuse I've been waiting for.",
+      },
+      {
+        label: "One tight hug at the top 🫂",
+        reply: "Locked in — mandatory stop at 17,982 ft.",
+      },
+    ],
+  },
+  {
+    id: "sunflower",
+    flowerName: "Golden Marigold",
+    color: "#F4C07A",
+    question: "Third flower. At Pangong sunrise, what catches your eyes first?",
+    options: [
+      {
+        label: "That endless blue lake 🏔️",
+        reply: "Fair — because I'll definitely be caught looking at you instead.",
+      },
+      {
+        label: "Probably straight at you 👀",
+        reply: "Okay, now you're making it impossible not to smile.",
+      },
+    ],
+  },
+  {
+    id: "lotus",
+    flowerName: "Starlight Lotus",
+    color: "#E8B4D9",
+    question: "Final flower for your bouquet. Midnight under Hanle's stars — what's the plan?",
+    options: [
+      {
+        label: "One blanket & quiet stars ✨",
+        reply: "My favorite kind of midnight, right next to you.",
+      },
+      {
+        label: "Pick our date right now ❤️",
+        reply: "Say less — scroll below and seal our Ladakh ticket.",
+      },
+    ],
+  },
+];
