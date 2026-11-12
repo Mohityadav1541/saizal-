@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --dusk-bg: #161015;
+  --rose-gold: #f2a68d;
+  --honey-gold: #f4c07a;
+  --warm-ivory: #fff6ee;
+  --blush-mist: #dfd0ca;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--dusk-bg);
+  color: var(--warm-ivory);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  overscroll-behavior-y: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-script {
+  font-family: "Great Vibes", cursive;
+}
+
+.font-hand {
+  font-family: "Caveat", cursive;
+}
+
+/* Warm, romantic translucent card over real Ladakh scenery */
+.romantic-glass {
+  background: linear-gradient(
+    155deg,
+    rgba(28, 19, 24, 0.72) 0%,
+    rgba(19, 13, 17, 0.82) 100%
+  );
+  border: 1px solid rgba(255, 246, 238, 0.14);
+  box-shadow: 0 28px 65px -20px rgba(8, 4, 7, 0.75);
+  backdrop-filter: blur(14px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161015;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(242, 166, 141, 0.35);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 192, 122, 0.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
