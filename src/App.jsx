@@ -8,6 +8,7 @@ import HerSpotlightSection from "./components/HerSpotlightSection";
 import BikeExpeditionSection from "./components/BikeExpeditionSection";
 import FlowerQuestionsSection from "./components/FlowerQuestionsSection";
 import FlirtDeckSection from "./components/FlirtDeckSection";
+import TeddyRoseTree from "./components/TeddyRoseTree";
 import SealedLetterSection from "./components/SealedLetterSection";
 import DatePickerSection from "./components/DatePickerSection";
 import { TRIP_META } from "./data/expeditionData";
@@ -170,6 +171,7 @@ export default function App() {
             <div className="absolute inset-0 bg-gradient-to-b from-[#161015] via-[#161015]/50 to-[#120C11]" />
           </div>
           <SealedLetterSection />
+          <TeddyRoseTree />
           <DatePickerSection
             approved={approved}
             onLockInDates={() => {

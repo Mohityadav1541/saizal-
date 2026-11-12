@@ -148,3 +148,4 @@ export default function TeddyRoseBuddy({ compact = false }) {
     </div>
   );
 }
+
